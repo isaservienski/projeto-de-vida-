@@ -35,7 +35,7 @@ function calculaTempo(tempoObjetivo) {
     minutos %= 60;
     horas %= 24;
     if (tempoFinal > 0) {
-        return dias + " 200 " + horas + " 4.800 " + minutos + " 28800 " + segundos + " 1,7";
+        return dias + " dias" + horas + " horas " + minutos + " minutos" + segundos + " segundos ";
     } else {
         return "Prazo em andamento";
     }
